@@ -194,7 +194,6 @@ deploy/
 ## Git 协作约定
 
 - 每个功能模块单独创建分支和 Pull Request。
-- 每个 PR 只提交当前模块相关文件，不混入无关代码。
 - 文档、前端、后端、测试、部署配置尽量分开提交。
 - PR 创建后先由成员检查，确认无误后再合并。
 - 不提交 `node_modules/`、`target/`、`dist/`、本地上传文件和环境变量文件。
@@ -202,8 +201,6 @@ deploy/
 ## 文档索引
 
 - [项目计划书](docs/plan/project_plan.md)
-- [Git 过程说明](docs/git/git_process.md)
 - [中期与结项报告](docs/report/中期与结项报告.md)
 - [项目目录和接口清单](project_structure_and_api.md)
-- [部署说明](deploy/README.md)
 
